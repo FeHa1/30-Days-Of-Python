@@ -48,12 +48,6 @@ Declare 5 as num_one and 4 as num_two
     Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
     Calculate num_one to the power of num_two and assign the value to a variable exp
     Find floor division of num_one by num_two and assign the value to a variable floor_division
-The radius of a circle is 30 meters.
-    Calculate the area of a circle and assign the value to a variable name of area_of_circle
-    Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
-    Take radius as user input and calculate the area.
-Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-Run help('keywords') in Python shell or in your file to check for the Python reserved words or keyword
 """
 
 #pongo pocos porque despues el tipo de dato se repite
@@ -74,3 +68,38 @@ print("\n")
 
 num_one = 5
 num_two = 4
+
+total = num_one + num_two
+print(total)
+
+print('\n')
+
+diff = num_two - num_one
+print(diff)
+
+print('\n')
+
+product = num_one * num_two
+print(product)
+
+division = num_one/num_two
+print(division)
+
+reminder = num_two % num_one
+print(reminder)
+
+exp = num_one ** num_two
+print(exp)
+
+floor_division = num_one//num_two
+print(floor_division)
+
+"""
+The radius of a circle is 30 meters.
+    Calculate the area of a circle and assign the value to a variable name of area_of_circle
+    Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+    Take radius as user input and calculate the area.
+Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+Run help('keywords') in Python shell or in your file to check for the Python reserved words or keyword
+"""
+
