@@ -114,7 +114,19 @@ area_of_circle_rad = 3.14 * rad**2
 print(area_of_circle_rad)
 
 """
-Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-Run help('keywords') in Python shell or in your file to check for the Python reserved words or keyword
+Use the built-in input function to get first name, last name, country and age from a user and store the 
+value to their corresponding variable names Run help('keywords') in Python shell or in your file to 
+check for the Python reserved words or keyword
 """
 
+firstName = input("¿Cual es tu nombre? ")
+lastName = input("¿Cual es tu apellido? ")
+country2 = input("¿De que pais eres? ")
+age2 = input("¿Cual es tu edad? ")
+
+print("El nombre es: ", firstName)
+print("El apellido es: ", lastName)
+print("El pais es: ", country2)
+print("La edad es: ", age2)
+
+help('keyword')
